@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
   // Headers CORS para permitir localhost y otros orígenes
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200'); // o '*'
+  res.setHeader('Access-Control-Allow-Origin', 'https://regiogruasmty.com'); // o '*'
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
