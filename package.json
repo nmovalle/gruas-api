@@ -1,20 +1,16 @@
 {
   "name": "gruas-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API para enviar correos desde Vercel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
     "nodemailer": "^7.0.5"
   }
 }
